@@ -1,9 +1,31 @@
 
-.sam {
-  color: rgb(244, 239, 238);
+body
+{
+  background-color:rgb(0, 0, 0);
+  
+}
+
+
+.titulo {
+  color: rgb(70, 205, 17);
+  padding-top: 120px;
+  padding-bottom: 10px;
+  height: 300px;
+  width: 1500px;
+  border: 2px solid red;
   font-size: 100px;
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #bb5c5c;
+  background: url(./mídias-projeto-html-samuel/Cheviche.jpg.jpg);
+}
+
+.sub-titulo {
+  border: 2px solid red;
+  text-align:center;
+  background-color:rgb(55, 139, 148);
+    
+
 }
 
 a {
@@ -32,52 +54,41 @@ p {
   color: azure;
 }
 
-.menu
+.container-menu
  {
-  list-style:none;
-  display: inline;
-  border:1px none #c0c0c0;
-  margin: 0;
-  padding: 0;
-  width: auto;
+  width: 97vw;
+  border: 1px solid #c0c0c0;
   height: 30px;
+  background-color: rgb(76, 51, 130);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
 }
 
-ul {
+.itens {
   list-style-type: none;
-  margin: 0;
+  text-decoration:none;
+  margin-right: 50px;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-}
-
-li {
+  background-color: #bb5c5c;
   float: left;
 }
 
-li a {
-  display: inline-block;
-  color: white;
+.container-principal {
+  border: 1px solid #c0c0c0;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-#menuzao
-{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(219, 230, 230);
-display: inline-block;
-margin-right: 40px;
-line-height: 20px;
 
 }
 
-.fundocor
+
+.container-footer {
+  text-align: center;
+  border: 1px solid #c0c0c0;
+}
+
+body
 {
   background-color:rgb(0, 0, 0);
   
